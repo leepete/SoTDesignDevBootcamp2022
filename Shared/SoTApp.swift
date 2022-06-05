@@ -11,7 +11,8 @@ import SwiftUI
 struct SoTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Load whatever views you want if not using previews
+            BeforeBuyNowView()
         }
     }
 }

@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		7C31EAB228473A1D000A13E5 /* SoTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31EAA228473A1B000A13E5 /* SoTApp.swift */; };
 		7C31EAB328473A1D000A13E5 /* SoTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31EAA228473A1B000A13E5 /* SoTApp.swift */; };
-		7C31EAB428473A1D000A13E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31EAA328473A1B000A13E5 /* ContentView.swift */; };
-		7C31EAB528473A1D000A13E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31EAA328473A1B000A13E5 /* ContentView.swift */; };
+		7C31EAB428473A1D000A13E5 /* ButtonViewExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31EAA328473A1B000A13E5 /* ButtonViewExamples.swift */; };
+		7C31EAB528473A1D000A13E5 /* ButtonViewExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31EAA328473A1B000A13E5 /* ButtonViewExamples.swift */; };
 		7C31EAB628473A1D000A13E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C31EAA428473A1D000A13E5 /* Assets.xcassets */; };
 		7C31EAB728473A1D000A13E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C31EAA428473A1D000A13E5 /* Assets.xcassets */; };
+		7CB15DFC284C4171001C71E8 /* NetworkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB15DFB284C4171001C71E8 /* NetworkCard.swift */; };
+		7CB15DFD284C4171001C71E8 /* NetworkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB15DFB284C4171001C71E8 /* NetworkCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C31EAA228473A1B000A13E5 /* SoTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoTApp.swift; sourceTree = "<group>"; };
-		7C31EAA328473A1B000A13E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C31EAA328473A1B000A13E5 /* ButtonViewExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewExamples.swift; sourceTree = "<group>"; };
 		7C31EAA428473A1D000A13E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C31EAA928473A1D000A13E5 /* SoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C31EAAF28473A1D000A13E5 /* SoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C31EAB128473A1D000A13E5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7C31EAA928473A1D000A13E5 /* SoTDesignDevBootcamp2022DesignDevBootcamp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoTDesignDevBootcamp2022DesignDevBootcamp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C31EAAF28473A1D000A13E5 /* SoTDesignDevBootcamp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoTDesignDevBootcamp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB15DFB284C4171001C71E8 /* NetworkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				7C31EAA128473A1B000A13E5 /* Shared */,
-				7C31EAB028473A1D000A13E5 /* macOS */,
 				7C31EAAA28473A1D000A13E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				7C31EAA228473A1B000A13E5 /* SoTApp.swift */,
-				7C31EAA328473A1B000A13E5 /* ContentView.swift */,
+				7C31EAA328473A1B000A13E5 /* ButtonViewExamples.swift */,
+				7CB15DFB284C4171001C71E8 /* NetworkCard.swift */,
 				7C31EAA428473A1D000A13E5 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -64,26 +66,18 @@
 		7C31EAAA28473A1D000A13E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C31EAA928473A1D000A13E5 /* SoT.app */,
-				7C31EAAF28473A1D000A13E5 /* SoT.app */,
+				7C31EAA928473A1D000A13E5 /* SoTDesignDevBootcamp2022DesignDevBootcamp2022.app */,
+				7C31EAAF28473A1D000A13E5 /* SoTDesignDevBootcamp2022.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7C31EAB028473A1D000A13E5 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				7C31EAB128473A1D000A13E5 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C31EAA828473A1D000A13E5 /* SoT (iOS) */ = {
+		7C31EAA828473A1D000A13E5 /* SoTDesignDevBootcamp2022 (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C31EABA28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoT (iOS)" */;
+			buildConfigurationList = 7C31EABA28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoTDesignDevBootcamp2022 (iOS)" */;
 			buildPhases = (
 				7C31EAA528473A1D000A13E5 /* Sources */,
 				7C31EAA628473A1D000A13E5 /* Frameworks */,
@@ -93,14 +87,14 @@
 			);
 			dependencies = (
 			);
-			name = "SoT (iOS)";
+			name = "SoTDesignDevBootcamp2022 (iOS)";
 			productName = "SoT (iOS)";
-			productReference = 7C31EAA928473A1D000A13E5 /* SoT.app */;
+			productReference = 7C31EAA928473A1D000A13E5 /* SoTDesignDevBootcamp2022DesignDevBootcamp2022.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C31EAAE28473A1D000A13E5 /* SoT (macOS) */ = {
+		7C31EAAE28473A1D000A13E5 /* SoTDesignDevBootcamp2022 (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C31EABD28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoT (macOS)" */;
+			buildConfigurationList = 7C31EABD28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoTDesignDevBootcamp2022 (macOS)" */;
 			buildPhases = (
 				7C31EAAB28473A1D000A13E5 /* Sources */,
 				7C31EAAC28473A1D000A13E5 /* Frameworks */,
@@ -110,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = "SoT (macOS)";
+			name = "SoTDesignDevBootcamp2022 (macOS)";
 			productName = "SoT (macOS)";
-			productReference = 7C31EAAF28473A1D000A13E5 /* SoT.app */;
+			productReference = 7C31EAAF28473A1D000A13E5 /* SoTDesignDevBootcamp2022.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C31EAA028473A1B000A13E5 /* Build configuration list for PBXProject "SoT" */;
+			buildConfigurationList = 7C31EAA028473A1B000A13E5 /* Build configuration list for PBXProject "SoTDesignDevBootcamp2022" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +140,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C31EAA828473A1D000A13E5 /* SoT (iOS) */,
-				7C31EAAE28473A1D000A13E5 /* SoT (macOS) */,
+				7C31EAA828473A1D000A13E5 /* SoTDesignDevBootcamp2022 (iOS) */,
+				7C31EAAE28473A1D000A13E5 /* SoTDesignDevBootcamp2022 (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -176,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C31EAB428473A1D000A13E5 /* ContentView.swift in Sources */,
+				7C31EAB428473A1D000A13E5 /* ButtonViewExamples.swift in Sources */,
 				7C31EAB228473A1D000A13E5 /* SoTApp.swift in Sources */,
+				7CB15DFC284C4171001C71E8 /* NetworkCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C31EAB528473A1D000A13E5 /* ContentView.swift in Sources */,
+				7C31EAB528473A1D000A13E5 /* ButtonViewExamples.swift in Sources */,
 				7C31EAB328473A1D000A13E5 /* SoTApp.swift in Sources */,
+				7CB15DFD284C4171001C71E8 /* NetworkCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +319,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = summeroftech.SoT;
-				PRODUCT_NAME = SoT;
+				PRODUCT_NAME = SoTDesignDevBootcamp2022DesignDevBootcamp2022;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,7 +348,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = summeroftech.SoT;
-				PRODUCT_NAME = SoT;
+				PRODUCT_NAME = SoTDesignDevBootcamp2022DesignDevBootcamp2022;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,7 +376,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = summeroftech.SoT;
-				PRODUCT_NAME = SoT;
+				PRODUCT_NAME = SoTDesignDevBootcamp2022;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -406,7 +402,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = summeroftech.SoT;
-				PRODUCT_NAME = SoT;
+				PRODUCT_NAME = SoTDesignDevBootcamp2022;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -416,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C31EAA028473A1B000A13E5 /* Build configuration list for PBXProject "SoT" */ = {
+		7C31EAA028473A1B000A13E5 /* Build configuration list for PBXProject "SoTDesignDevBootcamp2022" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C31EAB828473A1D000A13E5 /* Debug */,
@@ -425,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C31EABA28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoT (iOS)" */ = {
+		7C31EABA28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoTDesignDevBootcamp2022 (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C31EABB28473A1D000A13E5 /* Debug */,
@@ -434,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C31EABD28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoT (macOS)" */ = {
+		7C31EABD28473A1D000A13E5 /* Build configuration list for PBXNativeTarget "SoTDesignDevBootcamp2022 (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C31EABE28473A1D000A13E5 /* Debug */,
