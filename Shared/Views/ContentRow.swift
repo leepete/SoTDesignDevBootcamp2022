@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/*
+ Reusable view for content
+ */
+
 struct ContentRow: View {
     
     var title: String

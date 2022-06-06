@@ -7,7 +7,13 @@
 
 import SwiftUI
 
+/*
+ Front and back presentation of the Network Card
+ */
+
 struct NetworkCardFrontView: View {
+    
+    let viewModel: NetworkCardViewModel
     
     @Binding var degree : Double
     
@@ -16,8 +22,8 @@ struct NetworkCardFrontView: View {
             VStack(alignment: .leading) {
                 
                 // Header
-                HeaderView(yearLevel: "YEAR LEVEL",
-                           graduateYear: 2022,
+                HeaderView(yearLevel: viewModel.yearLevel,
+                           graduateYear: viewModel.graduateYear,
                            imageName: "SoT Logo-White",
                            backgroundColor: .brandMasterPrimary,
                            textColor: .white)
@@ -39,9 +45,9 @@ struct NetworkCardFrontView: View {
                     .padding()
                     
                     // Rows
-                    VStack(spacing: 24) {
-                        ContentRow(title: "Member Name", detail: "Joey Tribbiani")
-                        ContentRow(title: "Member ID", detail: "563 987 4224")
+                    VStack(alignment: .leading, spacing: 24) {
+                        ContentRow(title: "Member Name", detail: viewModel.studentName)
+                        ContentRow(title: "Member ID", detail: viewModel.studentId)
                     }
                     .padding()
                 }
@@ -72,6 +78,8 @@ struct NetworkCardFrontView: View {
 
 struct NetworkCardBackView: View {
     
+    let viewModel: NetworkCardViewModel
+    
     @Binding var degree : Double
     
     var body: some View {
@@ -79,8 +87,8 @@ struct NetworkCardBackView: View {
             VStack(alignment: .leading) {
                 
                 // Header
-                HeaderView(yearLevel: "YEAR LEVEL",
-                           graduateYear: 2022,
+                HeaderView(yearLevel: viewModel.yearLevel,
+                           graduateYear: viewModel.graduateYear,
                            imageName: "SoT Logo-Text",
                            backgroundColor: .brandMasterSecondary,
                            textColor: .black)
@@ -88,8 +96,8 @@ struct NetworkCardBackView: View {
                 // Content Rows
                 VStack {
                     VStack(alignment: .leading, spacing: 24) {
-                        ContentRow(title: "Member Name", detail: "Joey Tribbiani")
-                        ContentRow(title: "Study Qualification", detail: "Certificate in Web Design\nBachelor of Arts and Digital Media")
+                        ContentRow(title: "Member Name", detail: viewModel.studentName)
+                        ContentRow(title: "Study Qualification", detail: viewModel.qualification)
                     }
                     .padding()
                 }
@@ -113,13 +121,13 @@ struct NetworkCardBackView: View {
 struct NetworkCard_Previews: PreviewProvider {
     
     static var previews: some View {
-        CardView()
+        CardView(viewModel: .dummyData)
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Interactive Card")
-        NetworkCardFrontView(degree: .constant(0))
+        NetworkCardFrontView(viewModel: .dummyData, degree: .constant(0))
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Front Side")
-        NetworkCardBackView(degree: .constant(0))
+        NetworkCardBackView(viewModel: .dummyData, degree: .constant(0))
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Back Side")
     }

@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/*
+    Helpers for custom colours in our Assets
+ */
+
 extension Color {
     static let brandMasterPrimary = Color("BrandMasterPrimary")
     static let brandMasterSecondary = Color("BrandMasterSecondary")

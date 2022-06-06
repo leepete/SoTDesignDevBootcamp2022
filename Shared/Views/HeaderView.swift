@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/*
+ Reusable view for header
+ */
+
 struct HeaderView: View {
     
     var yearLevel: String

@@ -7,7 +7,13 @@
 
 import SwiftUI
 
+/*
+ This class is a wrapper that houses the front and back side of the Network Card and powers the flip animation 
+ */
+
 struct CardView: View {
+    
+    let viewModel: NetworkCardViewModel
     
     @State var frontDegree = 0.0
     @State var backDegree = 90.0
@@ -17,8 +23,8 @@ struct CardView: View {
     
     var body: some View {
         ZStack {
-            NetworkCardFrontView(degree: $frontDegree)
-            NetworkCardBackView(degree: $backDegree)
+            NetworkCardFrontView(viewModel: viewModel, degree: $frontDegree)
+            NetworkCardBackView(viewModel: viewModel, degree: $backDegree)
         }
         .gesture(
             DragGesture(minimumDistance: 50)
