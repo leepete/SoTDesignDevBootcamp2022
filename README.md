@@ -2,7 +2,7 @@
 
 Hello there! This is the repository from the **2022 SoT Designer/Developer Collaboration bootcamp** written in **SwiftUI**. Feel free to fork/download and play around with it!
 
-[![FrontView](./Screenshots/frontView.png)]() [![BackView](./Screenshots/backView.png)]() [![Demo gif](./Screenshots/demo.gif)]()
+[![View](./Screenshots/screenshotView.png)]() [![Demo gif](./Screenshots/demo.gif)]()
 
 
 # Requirements
