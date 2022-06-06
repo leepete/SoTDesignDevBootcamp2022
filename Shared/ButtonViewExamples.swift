@@ -30,6 +30,7 @@ struct BeforeBuyNowView: View {
                 .cornerRadius(4)
             }
         }
+        .padding()
     }
 }
 
