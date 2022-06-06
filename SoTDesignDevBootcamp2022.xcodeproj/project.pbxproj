@@ -118,8 +118,8 @@
 		7CF16692284E36A200FDBFB9 /* Network Card */ = {
 			isa = PBXGroup;
 			children = (
-				7CB15DFB284C4171001C71E8 /* NetworkCardView.swift */,
 				7CF1668E284E310B00FDBFB9 /* NetworkCardViewModel.swift */,
+				7CB15DFB284C4171001C71E8 /* NetworkCardView.swift */,
 			);
 			path = "Network Card";
 			sourceTree = "<group>";

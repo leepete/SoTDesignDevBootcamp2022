@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/*
+/**
  Reusable view for header
  */
 
@@ -43,6 +43,10 @@ struct HeaderView: View {
         
     }
 }
+
+/*
+ SwiftUI Preview of Header
+ */
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderView(yearLevel: "3rd Year",

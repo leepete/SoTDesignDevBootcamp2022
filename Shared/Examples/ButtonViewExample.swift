@@ -1,11 +1,15 @@
 //
-//  ContentView.swift
-//  Shared
+//  ButtonViewExample.swift
+//  SoTDesignDevBootcamp2022
 //
 //  Created by Peter Lee on 1/06/22.
 //
 
 import SwiftUI
+
+/*
+ Example of how a label and button can be improved when collaborating with a designer
+ */
 
 struct BeforeBuyNowView: View {
     var body: some View {

@@ -1,14 +1,14 @@
 //
-//  SwiftUIView.swift
-//  SoT
+//  NetworkCardFrontView.swift
+//  SoTDesignDevBootcamp2022
 //
 //  Created by Peter Lee on 5/06/22.
 //
 
 import SwiftUI
 
-/*
- Front and back presentation of the Network Card
+/**
+ Front presentation of the Network Card
  */
 
 struct NetworkCardFrontView: View {
@@ -76,6 +76,10 @@ struct NetworkCardFrontView: View {
     }
 }
 
+/**
+ Back presentation of the Network Card
+ */
+
 struct NetworkCardBackView: View {
     
     let viewModel: NetworkCardViewModel
@@ -117,6 +121,11 @@ struct NetworkCardBackView: View {
         .rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
     }
 }
+
+
+/*
+ SwiftUI Preview of front and back presentation of the Network Card
+ */
 
 struct NetworkCard_Previews: PreviewProvider {
     

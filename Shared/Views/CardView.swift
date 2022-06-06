@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/*
+/**
  This class is a wrapper that houses the front and back side of the Network Card and powers the flip animation 
  */
 

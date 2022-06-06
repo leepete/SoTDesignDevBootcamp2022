@@ -1,11 +1,15 @@
 //
 //  MainApp.swift
-//  Shared
+//  SoTDesignDevBootcamp2022
 //
 //  Created by Peter Lee on 1/06/22.
 //
 
 import SwiftUI
+
+/**
+    This is where the code runs from
+ */
 
 @main
 struct MainApp: App {
@@ -13,12 +17,14 @@ struct MainApp: App {
         WindowGroup {
             CardView(viewModel: .dummyData)
             
-//            let viewModel = NetworkCardViewModel(yearLevel: "66th Year",
+            // TODO: Tweak your information here :D
+    
+//            let yourDataModel = NetworkCardViewModel(yearLevel: "66th Year",
 //                                                 graduateYear: 2019,
 //                                                 studentName: "Obi-Wan Kenobi",
 //                                                 studentId: "300 333 444",
 //                                                 qualification: "Masters in the Force")
-//            CardView(viewModel: viewModel)
+//            CardView(viewModel: yourDataModel)
         }
     }
 }

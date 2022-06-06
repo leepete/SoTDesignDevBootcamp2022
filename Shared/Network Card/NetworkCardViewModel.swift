@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/*
+/**
  Represents the data you want to display on the Network Card View
  */
 

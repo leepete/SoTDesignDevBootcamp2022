@@ -8,7 +8,7 @@
 import SwiftUI
 
 /*
-    Helpers for custom colours in our Assets
+    Helpers for custom colours in our Assets folder
  */
 
 extension Color {

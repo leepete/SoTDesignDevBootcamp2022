@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/*
+/**
  Reusable view for content
  */
 
@@ -28,6 +28,10 @@ struct ContentRow: View {
         }
     }
 }
+
+/*
+ SwiftUI Preview of Content Row
+ */
 
 struct ContentRow_Previews: PreviewProvider {
     static var previews: some View {
